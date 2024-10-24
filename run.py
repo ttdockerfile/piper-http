@@ -26,7 +26,7 @@ script_folder = os.path.dirname(os.path.realpath(__file__))
 # subprocess.run(['python', download_script, link, target_folder])
 
 # Join target_folder with the model name
-model_path = os.path.join(target_folder, "model.onnx")
+model_path = os.path.join("/app/models/model.onnx")
 
 # If the --speaker arg is provided, run the http server with the model and the speaker
 if len(sys.argv) > 3:
