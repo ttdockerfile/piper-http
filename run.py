@@ -23,7 +23,7 @@ script_folder = os.path.dirname(os.path.realpath(__file__))
 download_script = os.path.join(script_folder, "download/download-piper-voices.py")
 
 # Download the model
-subprocess.run(['python', download_script, link, target_folder])
+# subprocess.run(['python', download_script, link, target_folder])
 
 # Join target_folder with the model name
 model_path = os.path.join(target_folder, "model.onnx")
