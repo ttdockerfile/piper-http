@@ -20,7 +20,7 @@ target_folder = sys.argv[2]
 script_folder = os.path.dirname(os.path.realpath(__file__))
 
 # Join script folder with download-piper-voices.py
-download_script = os.path.join(script_folder, "download/download-piper-voices.py")
+# download_script = os.path.join(script_folder, "download/download-piper-voices.py")
 
 # Download the model
 # subprocess.run(['python', download_script, link, target_folder])
