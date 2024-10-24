@@ -7,7 +7,7 @@ apt install -y git && \
 apt clean && \
 git clone https://github.com/rhasspy/piper && \
 cd piper && \
-rm -f .git
+rm -rf .git
 
 WORKDIR /app/piper/src/python_run
 
